@@ -1,8 +1,7 @@
 run the below commands
-
-pip install pytest-playwright 
-pip install pytest-asyncio 
-pip install playwright
+Make sure python is installed in the machine
+run the below command
+pip3 install pytest-playwright 
 To run test
 pytest test_patch.py
 pytest test_search.py
