@@ -1,4 +1,3 @@
-from random import random
 
 import pytest
 import requests
@@ -23,8 +22,6 @@ def create_data():
             "Hard disk size": "2 TB"
         }
     }
-
-
 #     To test patch request
 @pytest.mark.usefixtures("base_url", "create_data", "update_data")
 def test_post_object_1(base_url, create_data, update_data):
